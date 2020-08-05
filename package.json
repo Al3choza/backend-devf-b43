@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --verbose --detectOpenHandles ./test --watchAll",
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon -r dotenv/config index.js"
   },
   "keywords": [],
   "author": "",
